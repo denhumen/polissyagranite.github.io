@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/communication.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/hamburgermenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/5d952f6b40.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <title>Communitcation</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="./index.html">Main</a></li>
+                <li><a href="./index.html#pavement-area">Pavement</a></li>
+                <li><a href="./index.html#tile-area">Tiles</a></li>
+                <li><a href="./index.html#slabs-area">Slabs</a></li>
+                <li><a href="./index.html#curbs-area">Border</a></li>
+                <li><a href="./index.html#stone-types-catalog">Stone catalog</a></li>
+                <li><a href="./communication_page.html">Order</a></li>
+                <!-- <li>
+                    <img class="lang-img" width="30" height="30" src="https://img.icons8.com/color/48/ukraine-circular.png" alt="ukraine-circular"/>
+                </li> -->
+                <li>
+                    <div class="dropdown">
+                        <img class="lang-img" width="30" height="30" src="https://img.icons8.com/color/48/great-britain-circular.png" alt="great-britain-circular"/>
+                        <div class="lang-text">EN</div>
+                        <div class="dropdown-content">
+                            <a href="#"><img class="lang-img" width="25" height="25" src="https://img.icons8.com/color/48/ukraine-circular.png" alt="ukraine-circular"/>UA</a>
+                            <a href="#"><img class="lang-img" width="25" height="25" src="https://img.icons8.com/color/48/poland-circular.png" alt="poland-circular"/>PL</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <img class="logo" src="../img/main-logo.svg" alt="">
+        </div>
+    </nav>
+
+    <div class="top-nav-container"></div>
+
+    <div class="communication-information">
+        <div class="text">communication</div>
+        <!-- <div class="button-group">
+            <button class="button" onclick="showElementById('callmepopup')">
+                <i class="fa fa-phone fa-rotate-90"></i>Call me
+            </button>
+            <button class="button" onclick="showElementById('questionpopup')">
+                <i class="fa fa-question"></i>Ask us a question
+            </button>
+        </div> -->
+        <div class="company-contact-group">
+            <div class="company-contact">Phone 1: +38 093 185 66 04</div>
+            <div class="company-contact">Phone 2: +48730634203</div>
+            <div class="company-contact">Email: polissyagraniteua@gmail.com</div>
+        </div>
+        <div class="icon-group-messangers">
+            <!-- <img src="../img/viber-icon.svg" alt="#" class="icon"> -->
+            <div class="item-container"><a href="https://wa.me/+48730634203"><img src="../img/whatsapp-icon.svg" alt="#" class="icon"></a></div>
+            <!-- <img src="../img/messanger-icon.svg" alt="#" class="icon"> -->
+            <!-- <img src="../img/telegram-icon.svg" alt="#" class="icon"> -->
+        </div>
+        <div class="icon-group-header">Social networks</div>
+        <div class="icon-group-socials">
+            <div class="item-container"><a href="https://www.facebook.com/polissya.granite"><img src="../img/facebook-icon.svg" alt="#" class="icon"></a></div>
+            <!-- <img src="../img/twitter-icon.svg" alt="#" class="icon"> -->
+            <!-- <img src="../img/youtube-icon.svg" alt="#" class="icon"> -->
+            <div class="item-container"><a href="https://instagram.com/polissya.granite?igshid=OGQ5ZDc2ODk2ZA=="><img src="../img/instagram-icon.svg" alt="#" class="icon"></a></div>
+            <div class="item-container"><a href="https://www.tiktok.com/@polissya.granite"><img src="../img/tiktok-icon.svg" alt="#" class="icon"></a></div>
+        </div>
+    </div>
+
+    <div class="overlay" id="callmepopup">
+        <div class="popup">
+            <div class="close-button" onclick="hideElementById('callmepopup')">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="title">Call me popup</div>
+            <div class="form-container">
+                <form class="popup-form" action="">
+                    <input class="user-input" type="text" placeholder="Your name">
+                    <input class="user-input" type="phonenumber" placeholder="Your phone">
+                    <textarea class="user-textarea" type="text" placeholder="Additional comment (unrequired)"></textarea>
+                    <button class="submit-button" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="questionpopup">
+        <div class="popup">
+            <div class="close-button" onclick="hideElementById('questionpopup')">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="title">Fill in the form</div>
+            <div class="form-container">
+                <form class="popup-form" action="">
+                    <input class="user-input" type="text" placeholder="Your name">
+                    <input class="user-input" type="text" placeholder="Your email">
+                    <textarea class="user-textarea" type="text" placeholder="Your question"></textarea>
+                    <button class="submit-button" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="order-block">
+            <div class="order-container">
+                <div class="text1">Products to order from POLISSYA GRANITE</div>
+                <div class="text2">
+                    We offer the manufacture of natural stone products according to your sketches and designs.
+                    We produce any products from natural stone at prices without intermediaries.
+                </div>
+                <div class="order-block-icons">
+                    <div class="order-icon">
+                        <img src="../img/earth-svg.svg" alt="">
+                        <div>Delivery all over the world</div>
+                    </div>
+                    <div class="order-icon">
+                        <img src="../img/money-svg.svg" alt="">
+                        <div>Individual prices</div>
+                    </div>
+                    <div class="order-icon">
+                        <img src="../img/instruments-svg.svg" alt="">
+                        <div>Production to order</div>
+                    </div>
+                    <div class="order-icon">
+                        <img src="../img/mind-svg.svg" alt="">
+                        <div>9 years of experience</div>
+                    </div>
+                </div>
+                <div class="order-block-button-container">
+                    <a href="./communication_page.html"><button>Order</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <div class="footer-footer-text-block">
+                <div class="footer-footer-logo">
+                    <div class="heading">POLISSYA GRANITE</div>
+                    <div class="text">Your personal stone master. Contact us and we will help you to choose a stone product individually</div>
+                </div>
+                <div class="footer-footer-links">
+                    <div class="heading">Socials</div>
+                    <div class="link"><a href="https://www.instagram.com/polissya.granite/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">Instagram</a></div>
+                    <div class="link"><a href="https://www.facebook.com/polissya.granite">Facebook</a></div>
+                    <div class="link"><a href="https://www.tiktok.com/@polissya.granite">Tik tok</a></div>
+                </div>
+                <!-- <div class="footer-footer-links">
+                    <div class="heading">About</div>
+                    <div class="link">Who we are?</div>
+                    <div class="link">Partnership</div>
+                    <div class="link">Contact us</div>
+                </div> -->
+            </div>
+            <div class="footer-footer-footer">
+                <div class="">©2022 POLISSYAGRANITE. All rights reserved</div>
+                <div class="cursor-pointer">Privacy policy</div>
+                <div class="cursor-pointer">Terms and conditions</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
